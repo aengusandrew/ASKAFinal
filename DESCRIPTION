@@ -1,0 +1,10 @@
+Package: ASKAFinal
+Type: Package
+Title: Data Package of Data and Functions for STAT383 Final Project
+Version: 0.1.0
+Author: Aengus Andrew
+Maintainer: Aengus Andrew <aengusandrew215@gmail.com>
+Description: This package is for myself and my project group to easily exchange data betweent the four of using this data package.
+License: Public
+Encoding: UTF-8
+LazyData: true
