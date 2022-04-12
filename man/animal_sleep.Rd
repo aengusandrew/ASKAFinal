@@ -3,14 +3,30 @@
 \docType{data}
 \name{animal_sleep}
 \alias{animal_sleep}
-\title{This dataset contains the details 62 animals and their various attributes}
+\title{Animal Sleep}
 \format{
-An object of class \code{data.frame} with 62 rows and 11 columns.
+A data frame with 62 rows and 11 variables
+\describe {
+\item{Species}{chr Species of Animal}
+\item{Body_Weight_.kg.}{num Body weight in kg}
+\item{brain_weight_.g.}{num Brain weight in g}
+\item{slow_wave_sleep_.hrs.day.}{num Amount of slow wave (dreamless) sleep per day in hours}
+\item{paradoxical_sleep_.hrs.day.}{num Amount of paradoxical (dreamful) sleep per day in hours}
+\item{total_sleep_.hrs.day.}{num Total sleep per day in hours}
+\item{maximum_life_span_.yrs.}{num Maximum species life span in years}
+\item{gestation_.days.}{num Days on average species spends in gestation}
+\item{predation_index}{int Index from 1 to 5 of how likely the animal is to be preyed upon, 1 being very unlikely and 5 being very likely}
+\item{sleep_exposure_index}{int Index from 1 to 5 of how exposed the species is while sleeping, 1 being very enclosed and 5 being very exposed}
+\item{overall_danger_index}{int Index from 1 to 5 combing data from the two other indicies for overall danger for the animal, 1 being in little danger, and 5 being high in danger}
+}
+}
+\source{
+\url{http://lib.stat.cmu.edu/datasets/sleep}
 }
 \usage{
 animal_sleep
 }
 \description{
-This dataset contains the details 62 animals and their various attributes
+This dataset is for a Clarkson STAT383 final project, it contains data pertaining to animals sleep habits, their physical characteristics and various indices that help study their sleep habits.
 }
 \keyword{datasets}
